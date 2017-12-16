@@ -1,0 +1,172 @@
+html {
+
+ overflow:scroll;
+ background-color: rgb(214, 214, 214);
+
+}
+
+.site {
+  z-index:5;
+  height: auto;
+
+  background-color: rgb(63, 100, 140);
+  border-radius: 5%;
+  width: 85%;
+
+  top: 5%;
+  margin: 0px auto;
+  border: 4px solid rgb(17, 32, 48);
+  font-family: 'Lato', sans-serif;
+  max-width: 1000px;
+  min-width: 300px;
+
+}
+
+.title {
+  text-align: center;
+  color: rgb(17, 32, 48);
+  font-size: 1.5em;
+
+
+}
+
+.inputText {
+  color: rgb(17, 32, 48);
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+
+}
+
+.inputBody {
+  width: 35%;
+}
+
+.input {
+ width: 100%;
+ height: 200px;
+ overflow: scroll;
+ background-color: rgb(205, 209, 214);
+ border-style: none;
+ border-radius: 5px;
+ resize: vertical;
+
+}.description {
+font-size: .5em;
+text-align: center;
+font-size: 90%;
+padding: 2% 2%;
+color: rgb(17, 32, 48);
+font-size: 90%;
+font-weight: 600;
+padding-bottom: 1%;
+}
+
+.subtitle{
+font-size: .5em;
+}
+
+
+.body {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+
+
+.parametersBody {
+  width: 20%;
+  text-align: center;
+  padding: 5% 3%;
+  color: rgb(17, 32, 48);
+  font-weight: bold;
+  font-size: 90%;
+
+}
+
+.parameters {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(205, 209, 214);
+  border-style: none;
+  border-radius: 2px;
+  width: 45%;
+  resize: none;
+  overflow: hidden;
+
+
+
+}
+
+.button {
+  padding-top: 7px;
+  height: 20%;
+
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background:rgb(205, 209, 214);
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 3px;
+    resize: vertical;
+
+}
+
+.outputBody {
+  width: 35%;
+
+
+}
+
+.outputText{
+  text-align: center;
+  color: rgb(17, 32, 48);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.output {
+  width: 100%;
+  height: 200px;
+  overflow: scroll;
+  background-color: rgb(205, 209, 214);
+  border-style: none;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.navySealText {
+  z-index:-1;
+  display: inline;
+  position: absolute;
+  top: -6%;
+  left: 0px;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 280%;
+  line-height: 90%;
+  font-weight: 800;
+  text-align: justify;
+  background-color: rgb(214, 214, 214);
+  color: rgb(153, 153, 153);
+  word-spacing: 1px;
+  letter-spacing: .01em;
+  font-style: italic;
+
+}
+
+body {
+
+
+  overflow: hidden;
+}
+
+h1 {
+
+}
