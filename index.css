@@ -52,14 +52,13 @@ html {
  resize: vertical;
 
 }.description {
-font-size: .5em;
 text-align: center;
-font-size: 90%;
 padding: 2% 2%;
 color: rgb(17, 32, 48);
-font-size: 90%;
+font-size: 1em;
 font-weight: 600;
 padding-bottom: 1%;
+max-height: 300px;
 }
 
 .subtitle{
@@ -170,5 +169,5 @@ body {
 }
 
 h1 {
-
+margin-bottom: -.5em;
 }
