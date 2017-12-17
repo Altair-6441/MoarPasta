@@ -58,6 +58,7 @@ color: rgb(17, 32, 48);
 font-size: 1em;
 font-weight: 600;
 padding-bottom: 1%;
+max-height: 300px;
 }
 
 .subtitle{
